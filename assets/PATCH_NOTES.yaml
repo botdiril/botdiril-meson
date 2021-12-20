@@ -1,5 +1,11 @@
-latest: "350.11.1"
+latest: "350.12"
 patchList:
+  "350.12": |-
+    * Meson is now hosted in a new repository in preparations for the upcoming structural changes
+    * Added timestamp tracking for metrics
+    * Fix: Fixed a mistake in the patch notes
+    * Fix: Fixed a bug where achievements didn't translate to human-readable text
+
   "350.11.1": |-
     * Fix: Updated log4j to 2.16
 
@@ -8,7 +14,6 @@ patchList:
     * Fix: Updated log4j to fix CVE-2021-44228
 
   "350.10": |-
-    * **New: Added support for slash commands**
     * Max is no longer considered an item, now is an achievement instead
     * Fix: Various small bugfixes
 

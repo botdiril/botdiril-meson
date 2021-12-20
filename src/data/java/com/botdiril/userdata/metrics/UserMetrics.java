@@ -27,6 +27,7 @@ public class UserMetrics
                  um_dust BIGINT NOT NULL,
                  um_level INT NOT NULL,
                  um_xp BIGINT NOT NULL,
+                 um_timestamp TIMESTAMP NOT NULL DEFAULT UTC_TIMESTAMP(),
                  
                  PRIMARY KEY (fk_us_id, um_commandid),
                  FOREIGN KEY (fk_us_id) REFERENCES users(us_id)

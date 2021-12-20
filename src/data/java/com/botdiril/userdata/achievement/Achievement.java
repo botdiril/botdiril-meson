@@ -64,6 +64,12 @@ public class Achievement implements IGameObject
         return "%s %s".formatted(this.icon, this.localizedName);
     }
 
+    @Override
+    public String toString()
+    {
+        return this.getInlineDescription();
+    }
+
     public static Achievement getByName(String name)
     {
         return storage.get(name.toLowerCase(Locale.ROOT));

@@ -9,7 +9,7 @@ commands:
     description: Shows the top 10 users with the most keks.
 
   xpleaderboards:
-    aliases: [toplevel, toplevels, xprankings]
+    aliases: [toplevel, toplevels, xprankings, topxp]
     description: Shows the top 10 highest level users.
 
   nuke:

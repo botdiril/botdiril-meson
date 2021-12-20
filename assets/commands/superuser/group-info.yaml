@@ -25,7 +25,7 @@ commands:
     description: Resets the amount of an item to 0.
 
   resetcooldowns:
-    aliases: [resetcds]
+    aliases: [resetcds, resetcd]
     powerLevel: SUPERUSER_OVERRIDE
     description: Reset timers on everything for a user.
 
