@@ -1,5 +1,8 @@
-latest: "350.12"
+latest: "350.12.1"
 patchList:
+  "350.12.1": |-
+    * New repair kit icon
+
   "350.12": |-
     * Meson is now hosted in a new repository in preparations for the upcoming structural changes
     * Added timestamp tracking for metrics
