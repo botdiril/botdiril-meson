@@ -88,7 +88,7 @@ public class CommandWoodCut
 
             case MET_AZOR -> {
                 co.respond(":new_moon: You cannot believe your eyes as you stumble into the local legend - spectral wolf Azor." +
-                           " After following it for a while, it wanishes." +
+                           " After following it for a while, it vanishes." +
                            " You notice you've taken a shortcut home.");
                 timerModifier = 0.5;
             }

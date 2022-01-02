@@ -1,5 +1,8 @@
-latest: "350.12.1"
+latest: "350.12.2"
 patchList:
+  "350.12.2": |-
+    * Fixed a typo in `$woodcut`
+
   "350.12.1": |-
     * New repair kit icon
 

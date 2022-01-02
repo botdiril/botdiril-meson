@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "cz.tefek"
-version = "350.12"
+version = "350.12.2"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_16
